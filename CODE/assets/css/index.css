@@ -1,0 +1,115 @@
+body {
+	font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+}
+
+
+h1 {	
+	color: darkolivegreen;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+h2 {
+	color:darkolivegreen ;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	text-decoration: underline;
+
+}
+
+h4 {
+	color:darkolivegreen ;
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+p {
+	color: whitesmoke;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n){
+	background: whitesmoke;
+}
+
+span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+
+
+label {
+	font-size: 18px;
+	color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 13px;
+	box-sizing: border-box;
+	justify-content: left !important
+}
+
+.nextBtn {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsibleBtn {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: none;
+}
+
+.active, .collapsible:hover {
+    background-color: #17A2B8;
+}
+
+.collapsibleContent {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(100,100,100,0.3);
+}
+
+.form-row {
+    width: 100%;
+}

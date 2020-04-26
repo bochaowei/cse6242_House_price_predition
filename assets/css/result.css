@@ -1,0 +1,21 @@
+body {
+margin-top: 80px;
+background: rgba(76, 175, 80, 0.3)
+}
+.content {
+  margin: auto;
+  max-width: 1300px;
+}
+.content2 {
+  margin: auto;
+  max-width: 700px;
+}
+.text{
+ fill: white;
+}
+.Yaxis{
+ font: 30px sans-serif; 
+}
+.Xaxis{
+ font: 30px sans-serif; 
+}
